@@ -9,10 +9,11 @@ const currentTime = new Date().getHours();
 console.log(currentTime);
 
 function App() {
-  return;
+  return(
   <div className="container">
     {isLoggedIn == true ? <h1>Hello</h1> : <Form />}
-  </div>;
+  </div>
+    );
 }
 
 export default App;
